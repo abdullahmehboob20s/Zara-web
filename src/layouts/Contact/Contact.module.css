@@ -46,6 +46,10 @@
   margin-top: 1rem;
 }
 
+.hateSpamLink {
+  text-decoration: underline;
+}
+
 @media (max-width: 850px) {
   .formWrapper {
     display: flex;

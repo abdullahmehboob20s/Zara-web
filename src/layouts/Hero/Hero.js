@@ -11,7 +11,8 @@ function Hero() {
             <h1 className="fs-40px weight-500 black">Its Time to Shine - </h1>
 
             <h2 className="fs-40px weight-5 mb-20px">
-              <span className="weight-8 white">ZaharaMall</span> Goes Live Soon
+              <span className="weight-8 white">ZaharaMall</span> Goes Live On
+              <span className="white weight-6"> 22.1.22</span>
             </h2>
 
             <p className="gray fs-20px lh-1_6 weight-5 mb-40px">

@@ -9,7 +9,7 @@ function Contact() {
     <div className="container-wrapper py-100px">
       <header className="text-center mb-50px">
         <h1 className="uppercase fs-42px weight-7 mb-15px">
-          <span className="darkest-orange ">GET SPECIAL</span> DISCOUNT
+          <span className="darkest-orange ">GET LOOKBOOK + </span> GIFT VOUCHER
         </h1>
         <h2 className="fs-22px weight-6">
           Just fill out the form and wait for it!
@@ -41,13 +41,29 @@ function Contact() {
               <input className="fs-16px gray weight-4" type="text" id="email" />
             </div>
             <Button
-              title="GET DISCOUNT NOW"
+              title="GET GIFT VOUCHER"
               style={{
                 width: "100%",
                 fontSize: "16px",
                 padding: "1.3rem 20px",
               }}
             />
+
+            <div>
+              <a
+                className={`${styles.hateSpamLink} white text-center pointer block fs-12px mb-10px`}
+                href="https://zaharamall.com/privacy-policy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Privacy Policy
+              </a>
+              <p
+                className={`${styles.hateSpamLink} white text-center pointer fs-12px`}
+              >
+                We hate spam & You can unsubscribe anytime
+              </p>
+            </div>
           </form>
         </div>
         <div className={styles.lookbook}>
