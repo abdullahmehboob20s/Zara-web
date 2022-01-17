@@ -16,60 +16,77 @@ function Contact() {
         </h2>
       </header>
 
-      <main className={styles.formWrapper}>
-        <div className={styles.form}>
-          <div className={`${styles.voucher} flex`}>
-            <img src={ZM_Gift_Voucher} className="w-full" alt="" />
-          </div>
-          <form action="">
-            <div>
-              <label
-                htmlFor="name"
-                className="fs-16px weight-4 white mb-5px block"
-              >
-                Name :
-              </label>
-              <input className="fs-16px gray weight-4" type="text" id="name" />
+      <div className="mb-70px">
+        <main className={styles.formWrapper}>
+          <div className={styles.form}>
+            <div className={`${styles.voucher} flex`}>
+              <img src={ZM_Gift_Voucher} className="w-full" alt="" />
             </div>
-            <div>
-              <label
-                htmlFor="email"
-                className="fs-16px weight-4 white mb-5px block"
-              >
-                Email :
-              </label>
-              <input className="fs-16px gray weight-4" type="text" id="email" />
-            </div>
-            <Button
-              title="GET GIFT VOUCHER"
-              style={{
-                width: "100%",
-                fontSize: "16px",
-                padding: "1.3rem 20px",
-              }}
-            />
+            <form action="">
+              <div>
+                <label
+                  htmlFor="name"
+                  className="fs-16px weight-4 white mb-5px block"
+                >
+                  Name :
+                </label>
+                <input
+                  className="fs-16px gray weight-4"
+                  type="text"
+                  id="name"
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="email"
+                  className="fs-16px weight-4 white mb-5px block"
+                >
+                  Email :
+                </label>
+                <input
+                  className="fs-16px gray weight-4"
+                  type="text"
+                  id="email"
+                />
+              </div>
+              <Button
+                title="GET GIFT VOUCHER"
+                style={{
+                  width: "100%",
+                  fontSize: "16px",
+                  padding: "1.3rem 20px",
+                }}
+              />
 
-            <div>
-              <a
-                className={`${styles.hateSpamLink} white text-center pointer block fs-12px mb-10px`}
-                href="https://zaharamall.com/privacy-policy"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Privacy Policy
-              </a>
-              <p
-                className={`${styles.hateSpamLink} white text-center pointer fs-12px`}
-              >
-                We hate spam & You can unsubscribe anytime
-              </p>
-            </div>
-          </form>
-        </div>
-        <div className={styles.lookbook}>
-          <img src={LookBook_Cover} className="w-full" alt="" />
-        </div>
-      </main>
+              <div>
+                <a
+                  className={`${styles.hateSpamLink} white text-center pointer block fs-12px mb-10px`}
+                  href="https://zaharamall.com/privacy-policy"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Privacy Policy
+                </a>
+                <p
+                  className={`${styles.hateSpamLink} white text-center pointer fs-12px`}
+                >
+                  We hate spam & You can unsubscribe anytime
+                </p>
+              </div>
+            </form>
+          </div>
+          <div className={styles.lookbook}>
+            <img src={LookBook_Cover} className="w-full" alt="" />
+          </div>
+        </main>
+      </div>
+
+      <p className="gray fs-20px lh-1_6 weight-5 mb-40px text-center">
+        We are a full-service online African store offering sustainable quality
+        products from the finest brands in Africa, carefully curated for you.
+        ZaharaMall partners with STRIPE to ensure secure payments & with DHL for{" "}
+        <span className="weight-8">worldwide delivery</span>.
+      </p>
     </div>
   );
 }

@@ -15,13 +15,13 @@ function Hero() {
               <span className="white weight-6"> 22.1.22</span>
             </h2>
 
-            <p className="gray fs-20px lh-1_6 weight-5 mb-40px">
+            {/* <p className="gray fs-20px lh-1_6 weight-5 mb-40px">
               We are a full-service online African store offering sustainable
               quality products from the finest brands in Africa, carefully
               curated for you. ZaharaMall partners with STRIPE to ensure secure
               payments & with DHL for{" "}
               <span className="weight-8">worldwide delivery</span>.
-            </p>
+            </p> */}
             <Button title="GET GIFT VOUCHER" />
           </div>
           <div className={styles.hero_right}>
