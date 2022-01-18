@@ -1,5 +1,4 @@
-import Button from "components/Buttons/Button/Button";
-import React from "react";
+import ContactForm from "components/Forms/ContactForm/ContactForm";
 import styles from "./Hero.module.css";
 
 function Hero() {
@@ -15,16 +14,6 @@ function Hero() {
               <span className="white weight-6"> 22.1.22</span>
             </h2>
 
-            {/* <p className="gray fs-20px lh-1_6 weight-5 mb-40px">
-              We are a full-service online African store offering sustainable
-              quality products from the finest brands in Africa, carefully
-              curated for you. ZaharaMall partners with STRIPE to ensure secure
-              payments & with DHL for{" "}
-              <span className="weight-8">worldwide delivery</span>.
-            </p> */}
-            <Button title="GET GIFT VOUCHER" />
-          </div>
-          <div className={styles.hero_right}>
             <div className={styles.video}>
               <iframe
                 src="https://www.youtube.com/embed/cDplhSX2WBI"
@@ -34,10 +23,22 @@ function Hero() {
                 allowfullscreen
               ></iframe>
             </div>
-            <p className="text-center fs-20px gray weight-5 lh-1_4">
+            <p className=" fs-20px gray weight-5 lh-1_4">
               Come and experience Africa in a whole new way and snag your 10%
               Gift Voucher in our stunning LookBook.
             </p>
+
+            {/* <p className="gray fs-20px lh-1_6 weight-5 mb-40px">
+              We are a full-service online African store offering sustainable
+              quality products from the finest brands in Africa, carefully
+              curated for you. ZaharaMall partners with STRIPE to ensure secure
+              payments & with DHL for{" "}
+              <span className="weight-8">worldwide delivery</span>.
+            </p> */}
+            {/* <Button title="GET GIFT VOUCHER" /> */}
+          </div>
+          <div className={styles.hero_right}>
+            <ContactForm />
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 .heroContainer {
-  background-color: var(--sharp-orange);
+  background-color: var(--orange-1);
 }
 .hero {
   min-height: 100vh;
@@ -8,7 +8,7 @@
 }
 
 .hero_left {
-  flex: 1;
+  flex: 0.7;
   margin-right: 5rem;
 }
 
@@ -47,6 +47,7 @@
     margin-bottom: 4rem;
   }
 }
+
 @media (max-width: 500px) {
   .hero_left {
     flex: 1;
