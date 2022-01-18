@@ -29,19 +29,39 @@ function Footer() {
             </h1>
           </div>
           <div className={styles.footerRight}>
-            <a href="#">
+            <a
+              href="https://www.facebook.com/ZaharaMall-Africa-107900501358192"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaFacebookF size={28} />
             </a>
-            <a href="#">
+            <a
+              href="https://twitter.com/ZaharaMallAfric"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaTwitter size={28} />
             </a>
-            <a href="#">
+            <a
+              href="https://www.instagram.com/zaharamallafrica/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaInstagram size={28} />
             </a>
-            <a href="#">
+            <a
+              href="https://www.youtube.com/channel/UCdKiTpB-UCUKjeSb-mXt1GQ"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaYoutube size={28} />
             </a>
-            <a href="#">
+            <a
+              href="https://www.pinterest.se/zaharamallafrica/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaPinterest size={28} />
             </a>
           </div>
