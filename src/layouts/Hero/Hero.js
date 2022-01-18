@@ -23,7 +23,7 @@ function Hero() {
                 allowfullscreen
               ></iframe>
             </div>
-            <p className=" fs-20px white opacity-0_7 weight-5 lh-1_4">
+            <p className=" fs-20px black weight-5 lh-1_4">
               Come and experience Africa in a whole new way and snag your 10%
               Gift Voucher and our stunning LookBook.
             </p>
@@ -40,8 +40,7 @@ function Hero() {
           <div className={styles.hero_right}>
             <header className="text-center mb-20px">
               <h1 className="uppercase fs-30px weight-7 mb-10px">
-                <span className="darkest-orange ">GET LOOKBOOK + </span> GIFT
-                VOUCHER
+                <span className="black">GET LOOKBOOK + </span> GIFT VOUCHER
               </h1>
               <h2 className="fs-18px weight-6">
                 Just fill out the form and wait for it!
