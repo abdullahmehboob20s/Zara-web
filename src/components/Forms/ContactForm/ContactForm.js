@@ -93,7 +93,7 @@ function ContactForm() {
               </div>
               <Button
                 type="submit"
-                title="GET GIFT VOUCHER"
+                title="GET INSTANT  ACCESS"
                 style={{
                   width: "100%",
                   fontSize: "16px",

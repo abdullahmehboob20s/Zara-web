@@ -49,7 +49,7 @@ function WhatWeHave() {
           </h1>
         </header>
 
-        <main className={`${styles.cards} mb-100px`}>
+        <main className={`${styles.cards} `}>
           <Card img={img4} price="$30.00" title="Fashion Clothing" />
           <Card img={img3} price="$7" title="Accessories" />
           <Card img={img2} price="$6.00 " title="Beauty" />
@@ -65,9 +65,9 @@ function WhatWeHave() {
           <img src={sound_waves} alt="" />
           <p className="fs-22px orange-1 weight-7">SEE OUR ENTIRE OFFER</p>
         </div> */}
-        <div className="text-center margin-center w-fit-content">
+        {/* <div className="text-center margin-center w-fit-content">
           <Button title="GET GIFT VOUCHER" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

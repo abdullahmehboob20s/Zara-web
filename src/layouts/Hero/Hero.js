@@ -38,6 +38,15 @@ function Hero() {
             {/* <Button title="GET GIFT VOUCHER" /> */}
           </div>
           <div className={styles.hero_right}>
+            <header className="text-center mb-20px">
+              <h1 className="uppercase fs-30px weight-7 mb-10px">
+                <span className="darkest-orange ">GET LOOKBOOK + </span> GIFT
+                VOUCHER
+              </h1>
+              <h2 className="fs-18px weight-6">
+                Just fill out the form and wait for it!
+              </h2>
+            </header>
             <ContactForm />
           </div>
         </div>
