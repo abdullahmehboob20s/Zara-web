@@ -23,9 +23,9 @@ function Hero() {
                 allowfullscreen
               ></iframe>
             </div>
-            <p className=" fs-20px gray weight-5 lh-1_4">
+            <p className=" fs-20px white opacity-0_7 weight-5 lh-1_4">
               Come and experience Africa in a whole new way and snag your 10%
-              Gift Voucher in our stunning LookBook.
+              Gift Voucher and our stunning LookBook.
             </p>
 
             {/* <p className="gray fs-20px lh-1_6 weight-5 mb-40px">
